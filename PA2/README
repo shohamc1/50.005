@@ -1,0 +1,29 @@
+Programming Assignment 2
+========================
+Pair: Shoham Chakraborty (1004351), Jia Shuyi (1004576)
+
+How to run
+----------
+Move to PA2 directory: cd PA2/
+Compile java files: javac ClientCP1.java ClientCP2.java ServerCP1.java ServerCP2.java
+Create two tmux windows.
+
+To use CP1
+---------
+In the first window, run
+java ServerCP1
+
+In the second window, run
+java ClientCP1 <path to files>
+
+Multiple paths can be specified in the arguments. Atleast one path is required.
+
+To use CP2
+---------
+In the first window, run
+java ServerCP2
+
+In the second window, run
+java ClientCP2 <path to files>
+
+Multiple paths can be specified in the arguments. Atleast one path is required.
